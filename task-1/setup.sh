@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Creating project…"
-mkdir project
 rm -rf project
+mkdir project
 cd project
 git init
 
