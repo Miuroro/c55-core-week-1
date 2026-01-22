@@ -19,16 +19,14 @@ touch program.java
 cd ..
 git add .
 git commit -m "initial commit"
+sleep 3
 echo "Setup project…"
 echo "Welcome to my project" >> README.md
-cd src
-rmdir profile
-cd ..
-cd resources
-rm familypicture.jpg
-cd ..
+rmdir src/profile
+rm resources/familypicture.jpg
 git add .
 git commit -m "deleted profile and familypicture.jpg"
+sleep 3
 ls resources 
 echo "Setup javascript…"
 cd src
